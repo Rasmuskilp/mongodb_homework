@@ -20,4 +20,12 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 sudo service mongod start
 ## by doing this you should have successfully automated the mongodb installation
-## process inside a vm ubunut
+## process inside a vm ubunu
+# to get the ip Change
+### from inside ubuntu copu the mongod.conf file to to the project
+### manually make the necessary Changes
+## then the task is to link the mongod.conf file on windows into ubunutu
+### do synced folder on vagrantfile
+-     config.vm.synced_folder "environment/db", "/home/ubuntu/environment"
+## on provision use this command to link the mongod.conf files
+- sudo ln -s /home/ubuntu/environment/mongod.conf /etc/mongod.conf
