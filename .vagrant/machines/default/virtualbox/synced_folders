@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/ubuntu/environment":{"guestpath":"/home/ubuntu/environment","hostpath":"C:/Users/Rasmus Kilp/projects/vagrant_103_homework_mongodb/environment/db","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Rasmus Kilp/projects/vagrant_103_homework_mongodb","disabled":false,"__vagrantfile":true}}}
